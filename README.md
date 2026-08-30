@@ -18,4 +18,4 @@ Security researcher working across offensive and defensive sides:
 ### notes
 Most of my work is under NDA or tied to ongoing investigations, so this profile shows the tooling I can publish. Releases here tend to be DFIR and recon tooling built as a side effect of real cases.
 
-<div align="center"><sub>tooling: Python · C++ (reading other people'"'"'s) · git · a lot of curl</sub></div>
+<div align="center"><sub>tooling: Python · C++ (reading other people's) · git · a lot of curl</sub></div>
