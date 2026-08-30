@@ -1,28 +1,21 @@
 <div align="center">
 
-# hi, I'm TiaMEOWS
+# TiaMEOWS
 
-**security researcher · reverse engineering · DFIR · bug bounty**
+**offensive security · DFIR · OSINT**
 
 </div>
 
 ---
 
-I break ransomware artifacts and build tools that help victims get data back.
+Security researcher working across offensive and defensive sides:
 
-- 🔓 **[ransomforensics](https://github.com/TiaMEOWS/ransomforensics)** — parse ransomware-encrypted files, identify the family from its footer, and carve out the regions the encryptor never touched. Keyless recovery of partial-encryption victims. Zero malware in the repo — all test fixtures are synthetic, generated from format specs reverse-engineered from leaked locker source.
-- 🐛 bug bounty — web/API hunting on European programs (Intigriti & co.)
-- 🧪 reverse engineering — on-disk format analysis, footer/trailer structures, crypto chain documentation
+- 🔴 **web & API security** — bug bounty hunting on European programs (Intigriti & co.): auth chains, BOLA/IDOR, business logic. Contracted black-box pentests on real targets.
+- 🕵️ **OSINT & fraud investigation** — mapping illegal betting and money-flow networks: registrar/license attribution, infra fingerprinting, notification packages for regulators and law-enforcement channels.
+- 🔓 **ransomware artifact analysis** — reverse-engineering on-disk formats from leaked locker sources; building keyless-recovery tooling for incident responders. See [ransomforensics](https://github.com/TiaMEOWS/ransomforensics).
+- 🧪 **reverse engineering** — file-format anatomy, footer/trailer structures, key-derivation chain documentation.
 
-### currently
-- extending ransomforensics with more family parsers (Black Basta, LockBit 3.0, Akira, Royal/BlackSuit next)
-- writing about how partial encryption makes ransomware fast *and* sloppy
+### notes
+Most of my work is under NDA or tied to ongoing investigations, so this profile shows the tooling I can publish. Releases here tend to be DFIR and recon tooling built as a side effect of real cases.
 
-### toolbox
-`Python` · `C++ (reading other people's)` · `git` · `chaos engineering on ransomware assumptions`
-
-<div align="center">
-
-*star [ransomforensics](https://github.com/TiaMEOWS/ransomforensics) if it saved you an incident — or a ransom.*
-
-</div>
+<div align="center"><sub>tooling: Python · C++ (reading other people'"'"'s) · git · a lot of curl</sub></div>
